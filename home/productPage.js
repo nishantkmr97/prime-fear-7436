@@ -53,6 +53,7 @@ function addToCard(el){
     window.location.href="cardPage.html";
 }
 
+
 // sorting
 
 let sortAsc=async()=>{

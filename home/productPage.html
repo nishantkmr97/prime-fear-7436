@@ -6,45 +6,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="productPage.css" />
     <title>Dresses | Anthropologie</title>
-    <link rel="stylesheet" href="footer-mwk.css">
     <link rel="stylesheet" type="text/css" href="payment.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://visitoakville.com/wp-content/uploads/2013/03/04-07-2021-anthropologie-logo.jpg" />
+        <link rel="stylesheet" href="Navbar.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../footer/footer.css">
+        <script src="https://kit.fontawesome.com/e9bb69dc7f.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&family=Noto+Serif&display=swap" rel="stylesheet"> 
+        <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons"></a>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="footer-mwk.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+              <style>
+            #container{
+                display :grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(1, auto);
+                width :90%;
+                margin :auto;
+                gap :15px 20px;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 130px;
+            }
+            #container>div>img{
+                width: 100%;
+                height: 90%;
+                cursor:pointer;
+                transition: transform .2s;
+            }
+            #container>div>img:hover{
+                
+                transform: scale(1.1);
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
-</head>
-<body>
-    <div id="HomePageContent">
-        <!-- <label for="">Navigation Bar</label> -->
-        <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div>
-        <div id="AnthroNav_Bar">
-            <div id="NavDiv_a">
-                <div id="SiteName" onclick="window.location.href='index.html'">
-                    <p>ANTHROPOLOGIE</p>
+            }
+            #container>div>p{
+                font-size: 13px;
+                font-family:  Avenir Medium,sans-serif;
+                color: inherit;
+                text-align: start;
+            }
+            #container>div>p:hover{
+                color:#167a92;
+                cursor: pointer;
+            }
+            #container1{
+                display :grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(1, auto);
+                width :90%;
+                margin :auto;
+                gap :15px 20px;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 100px;
+            }
+            #container1>div>img{
+                width: 100%;
+                height: 70%;
+                cursor:pointer;
+            }
+            #container1>div>h2{
+                font-size: 23px;
+                font-family: Spectral Extra Light,serif;
+                font-weight: 100;
+                text-align: start;
+                color: #26262C;
+            }
+            #container1>div>h3{
+                text-align: start;
+                font-size: 18px;
+                color: #26262C;
+                margin:0px 0px 15px;
+                font-weight: 100;
+            }
+            #aboutus{
+                /* border: 1px solid red; */
+                width: 90%;
+                height: auto;
+                margin: auto;
+                border-top: 1px solid #e5e2de;
+                padding-top: 50px;
+            }
+            #aboutus>h2{
+                font-size: 18px;
+                color: #26262C;
+                margin: 0px 0px 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 100;
+                padding-top: -10px;
+            }
+            #aboutus>h4{
+                font-size: 15px;
+                margin: 0px 0px 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 100;
+            }
+            .dress{
+                color: #167a92;
+                text-decoration: underline;
+                cursor: pointer;
+                padding-bottom: 25px;
+            }
+            .dress:hover{
+                text-decoration: none;
+            }
+    
+            .line{
+                text-align: start;
+                text-decoration: underline;
+                color: #167a92;
+                cursor: pointer;
+            }
+            .line:hover{
+                text-decoration: none;
+            }
+    
+            .line-text{
+               padding-top: 30px;
+                border-bottom:1px solid #e5e2de;
+                width: 90%;
+                margin: auto;
+            }
+            .line-text>h2{
+              font-size: 18px;
+              font-family: Arial medium, sans-serif;
+              margin: 0px 0px 15px;
+              color: #26262C;
+              font-weight: 555;
+            }
+            .line-text2{
+               /* padding-top: 130px; */
+                border-bottom:1px solid #e5e2de;
+                width: 90%;
+                margin: auto;
+            }
+            .line-text2>h2{
+              font-size: 18px;
+              font-family: Arial medium, sans-serif;
+              margin: 0px 0px 15px;
+              color: #26262C;
+              font-weight: 555;
+            }
+            .line-text3{
+               
+                border-bottom:1px solid #e5e2de;
+                width: 90%;
+                margin: auto;
+            }
+            .line-text3>h2{
+                text-align: center;
+              font-size: 18px;
+              font-family: Arial medium, sans-serif;
+              margin: 0px 0px 15px;
+              color: #26262C;
+              font-weight: 555;
+            }
+            .exclusive{
+                text-align: center;
+                margin-bottom: 100px;
+                margin-top: -30px;
+                font-size: 13px;
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            
+            <div id="utility">
+                <div id="language">
+                    <div><img src="globe-svgrepo-com.svg" alt=""></div>
+                    <div><p>English  ($)</p></div>
+                    <div><img src="down-arrow-svgrepo-com.svg" alt=""></div>
                 </div>
-                <div id="SearchBar">
-                    <div>
-                        <input id="searchTxt" type="text" placeholder="Search">
-                    </div>
-                    <div id="iconSearch">
-                        <ion-icon name="search-outline"></ion-icon>
-                    </div>   
-                </div>
-                <div id="SignIn" onclick="window.location.href='SignUp_Page.html'">
-                    <ion-icon id="iconNav" name="person-outline"></ion-icon>
-                </div>
-                <div id="Cart" onclick="window.location.href='CartPage.html'">
-                    <ion-icon id="iconNav" name="bag-outline"></ion-icon>
+                <div id="credebility">
+                    <div><img src="user-profile-svgrepo-com.svg" alt="profile"></div>
+                    <div><a href="SignIn.html">Sing In / Sign Up</a></div>
                 </div>
             </div>
-            <div id="NavDiv_b">
-                <div id="TagsNav"  style="margin-left: 3%" onclick="window.location.href='Dresses.html'">Dresses</div>
-                <div id="TagsNav" onclick="window.location.href='ClothingPage.html'">Clothing</div>
-                <div id="TagsNav" onclick="window.location.href='ShoesPage.html'">Shoes</div>
-                <div id="TagsNav" onclick="window.location.href='index.html'">Accessories</div>
-                <div id="TagsNav1" onclick="window.location.href='index.html'">Home & Furniture</div>
-                <div id="TagsNav1" onclick="window.location.href='index.html'">Beauty & Wellness</div>
-                <div id="TagsNav" onclick="window.location.href='Dresses.html'">Weddings</div>
-                <div id="TagsNav1" onclick="window.location.href='index.html'">Gifts & Candles</div>
-            </div>            
+        <div id="navbar">
+            <div id="navbar1">
+                <div id="main-secondary">
+                    <div id="main"><a href="index.html">DRESS DELIGHT</a></div>
+                    <div id="secondary"><a href="#"><img src="https://images.ctfassets.net/5de70he6op10/y1O9tEDOvCGliGUvT9RoJ/eb8ab4734c5e3778b8b61da70ed441ac/AL_NewLogo_2.svg" alt=""></a></div>
+                </div>
+                <div id="search-cart">
+                    <div class= "search" id="search">
+                        <a class= "search" href="index.html">Search Delight</a>
+                        <img src="search-svgrepo-com.svg" alt="">
+                    </div>
+                    <div id="cart_ico">
+                        <a href="checkoutPage.html"><img src="bag-svgrepo-com.svg" alt=""></a><span id="ico"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="parentvariation">
+                <div id="variation">
+                    <div><a id="new" href="#">New!</a></div>
+                    <div id="new_content"></div>
+                    <div><a id="gift" href="../momgift/giftmom.html">Gifts for Mom</a></div>
+                    <div id="gift_content"></div>
+                    <div><a id="dress" href="productPage.html">Dresses</a></div>
+                    <div id="dress_content"></div>
+                    <div><a id="clothing" href="../clothes/clothes.html">clothing</a></div>
+                    <div id="clothing_content"></div>
+                    <div><a id="shoes" href="../Shoes/Shoes.html">Shoes</a></div>
+                    <div id="shoes_content"></div>
+                    <div><a id="Accessories" href="../accesssories/Accessories.html">Accessories</a></div>
+                    <div id="Accessories_content"></div>
+                    <div><a id="furniture" href="#">Home & Furniture</a></div>
+                    <div id="furniture_content"></div>
+                    <div><a id="beauty" href="../Beauty/Beauty.html">Beauty & Wellness</a></div>
+                    <div id="beauty_content"></div>
+                    <div><a id="garden" href="../Garden/Garden.html">Garden & Outdoor</a></div>
+                    <div id="garden_content"></div>
+                    <div><a id="weddingt" href="#">Weddings</a></div>
+                    <div id="wedding_content"></div>
+                    <div><a id="sale" href="#">Sale</a></div>
+                    <div id="sale_content"></div>
+                </div>
+            </div>
+        </div>
         </div>
         <br>
         <br>
